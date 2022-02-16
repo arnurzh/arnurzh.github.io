@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workoutzh</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Workout</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Jost:ital,wght@0,100;0,200;1,100&family=Montserrat:wght@300;400&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -15,7 +15,9 @@
 <body>
   <section class="site">
       <section class="all_content">
-        <section class="header">
+        <section class="header"  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="500">
             <div class="header_wrapper">
                 <div class="logo">
                     <img src="img/logo_workout.png" alt="logo">
@@ -60,7 +62,7 @@
               
             </div>
         </section>
-        <section class="sidebar_workout-plan" data-aos="flip-left">
+        <section class="sidebar_workout-plan" data-aos="fade-right">
             <div class="first-plan_side">
                 <div class="plan_title">
                     <span>4 WEEK</span>
@@ -85,6 +87,7 @@
             
             <div class="additional">
                 <div class="img"><img src="img/alexander.png" alt="alexander"></div>
+                <div class="img_adap"><img src="img/img adap.png" alt="adap"></div>
                <div class="additional_blocks">
                    <div class="add_block">
                         <div class="additional_content">
@@ -98,7 +101,7 @@
                             <div class="a_elipse">
                                 <a href="#">
                                     <div class="around_a">
-                                        <img src="img/Arrow 1.png" alt="">
+                                        <img src="img/arooww.png" alt="">
                                     </div>
                                 </a>
                             </div>
@@ -146,7 +149,7 @@
         </section>
         
 
-            <section class="video_container"  data-aos="fade-right">
+        <section class="video_container"  data-aos="fade-right">
               
                 <div class="video_wrapper">
                     <div class="video_header">
@@ -165,7 +168,9 @@
                         <div class="video_content-wrapper">
     
                         <div class="video_content-block">
-                            <a href="#"><img src="img/RUNNING.png" alt="run"></a>
+                            <a href="#" class ="run_img"><img  src="img/RUNNING.png" alt="run">
+                                        <!-- <img class="run_adap" src="img/harold-wainwright-AynRO6-OtCc-unsplash 1.png"> -->
+                            </a>
                             <div class="block-title">
                              <span>
                                  RUNNING
@@ -240,7 +245,7 @@
             </section >
       
      
-        <section class="team_info"  data-aos="fade-right">
+        <section class="team_info"  data-aos="fade-right" >
      
             <div class="team_info-wrapper">
                 <div class="team_title">
@@ -252,69 +257,119 @@
                     </span>
                 </div>
                 <div class="team_content">
-                   <div class="team_block">
-                       <img src="img/Frame 1.png" alt="james">
-                       <div class="team_block-text">
-                           <div class="team_block-title"><span>JAMIES FORD</span></div>
-                           <div class="team_block-subtitle"><span>Trainer</span></div>
-                           <div class="team_block-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat </span></div>
-                       </div>
-                       <div class="reusable_btn">
-                        <a href="#">
-                            <span>SEE MORE</span>
-                        </a>
-
-                    </div>
-                   </div>
-                   <div class="team_block">
-                    <img src="img/Frame 2.png" alt="eddie">
+                  <div class="team_block">
+                    <img src="img/Frame 1.png" alt="james">
+                  
                     <div class="team_block-text">
-                        <div class="team_block-title"><span>EDDIE SMITH</span></div>
+                        <div class="team_block-title"><span>JAMIES FORD</span></div>
                         <div class="team_block-subtitle"><span>Trainer</span></div>
                         <div class="team_block-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat </span></div>
                     </div>
                     <div class="reusable_btn">
-                        <a href="#">
-                            <span>SEE MORE</span>
-                        </a>
+                     <a href="#">
+                         <span>SEE MORE</span>
+                     </a>
 
-                    </div>
-                   </div>
-                   <div class="team_block">
-                    <img src="img/Frame 3.png" alt="annie">
-                    <div class="team_block-text">
-                        <div class="team_block-title"><span>ANNIE SUMMER</span></div>
-                        <div class="team_block-subtitle"><span>Trainer</span></div>
-                        <div class="team_block-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat </span></div>
-                    </div>
-                    <div class="reusable_btn">
-                        <a href="#">
-                            <span>SEE MORE</span>
-                        </a>
                  </div>
-                
-
                 </div>
-                   <div class="team_block-frame4">
-                    <img class="frame4" src="img/Frame 4 (1).png" alt="">
-                    <div class="team_block-text4">
-                        <div class="team_block-title"><span>EMILY SEA</span></div>
-                        <div class="team_block-subtitle"><span>Trainer</span></div>
-                        <div class="team_block-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat </span></div>
+                <div class="team_block">
+                 <img src="img/Frame 2.png" alt="eddie">
+             
+                 <div class="team_block-text">
+                     <div class="team_block-title"><span>EDDIE SMITH</span></div>
+                     <div class="team_block-subtitle"><span>Trainer</span></div>
+                     <div class="team_block-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat </span></div>
+                 </div>
+                 <div class="reusable_btn">
+                     <a href="#">
+                         <span>SEE MORE</span>
+                     </a>
+
+                 </div>
+                </div>
+                 
+                    <div class="team_block">
+                        <img src="img/Frame 3.png" alt="annie">
+                       
+                        <div class="team_block-text">
+                            <div class="team_block-title"><span>ANNIE SUMMER</span></div>
+                            <div class="team_block-subtitle"><span>Trainer</span></div>
+                            <div class="team_block-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat </span></div>
+                        </div>
                         <div class="reusable_btn">
                             <a href="#">
                                 <span>SEE MORE</span>
                             </a>
-
-                        </div>
+                     </div>
+                    
+    
                     </div>
-                   </div>
-                </div>
+                       <div class="team_block-frame4">
+                        <img  src="img/Frame 4 (1).png" alt="">
+                       
+                        <div class="team_block-text4">
+                            <div class="team_block-title"><span>EMILY SEA</span></div>
+                            <div class="team_block-subtitle"><span>Trainer</span></div>
+                            <div class="team_block-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat </span></div>
+                            <div class="reusable_btn">
+                                <a href="#">
+                                    <span>SEE MORE</span>
+                                </a>
+    
+                            </div>
+                        </div>
+                       </div>
+                  </div>
+                
             </div>
         </div>
-            
+            <section class="team_info-adap">
+                <div class="team_title">
+                    <span class="team_title">
+                 OUR TEAM
+                        <div class="style_element-video">
+
+                        </div>
+                    </span>
+                </div>
+                <div class="wrapper_team-adap">
+                    <div class="row1">
+                        <div class="adap_block">
+                            <img src="img/strong_adap.png" alt="" class="adap_james">
+                            <div class="team_block-title"><span>JAMIES FORD</span></div>
+                            <div class="team_block-subtitle"><span>Trainer</span></div>
+                        </div>
+                        <div class="adap_block">
+                            <img src="img/damir_adap.png" alt="" class="eddie_adap">
+                            <div class="team_block-title"><span>EDDIE SMITH</span></div>
+                     <div class="team_block-subtitle"><span>Trainer</span></div>
+                        </div>
+                    </div>
+                        
+                  
+                    <div class="row2">
+                        <div class="adap_block">
+                              <img src="img/sam_adap.png" alt="" class="annie_adap">
+                              <div class="team_block-title"><span>ANNIE SUMMER</span></div>
+                            <div class="team_block-subtitle"><span>Trainer</span></div>
+                        </div>
+                        <div class="adap_block">
+                         <img src="img/emily_adap.png" alt="" class="emily_adap">
+                         <div class="team_block-title"><span>EMILY SEA</span></div>
+                         <div class="team_block-subtitle"><span>Trainer</span></div>
+                        </div>
+                    </div>
+                    <div class="reusable_btn">
+                        <a href="#">
+                            <span>SEE MORE</span>
+                        </a>
+
+                    </div>
+                </div>
+               
+            </section>
     </section >
-        <section class="discover"  data-aos="fade-right"> 
+        <section class="discover"  data-aos="fade-right">
             <div class="discover_wrapper">
                 <div class="discover_title">
                     <span>DISCOVER YOUR POTENCIAL</span>
@@ -357,53 +412,56 @@
                             <a href="#"><img src="img/whats.png" alt="whats"></a>
                         </div>
                     </div>
-                    <div class="footer_contact">
-                        <div class="info_block">
-                            <span>
-                                INFO
-                            </span>
-                            <nav class="nav_footer">
-                                <a href="#">About</a>
-                                <a href="#">Careers</a>
-                                <a href="#">Press</a>
-                                <a href="#">Product Updates</a>
-                            </nav>
-
+                    <div class="connection">
+                        <div class="footer_contact">
+                            <div class="info_block">
+                                <span>
+                                    INFO
+                                </span>
+                                <nav class="nav_footer">
+                                    <a href="#">About</a>
+                                    <a href="#">Careers</a>
+                                    <a href="#">Press</a>
+                                    <a href="#">Product Updates</a>
+                                </nav>
+    
+                            </div>
+                            <div class="get_block">
+                                <span>
+                                 GET IN TOUCH
+                                </span>
+                                <nav  class="nav_footer">
+                                    <a href="#">About us</a>
+                                    <a href="#">Support</a>
+                                    <a href="#">Contact us</a>
+                                    
+                                </nav>
+    
+                            </div>
                         </div>
-                        <div class="get_block">
+                      <div class="email_block"> 
                             <span>
-                             GET IN TOUCH
+                                SUBSCRIBE TO OUR NEWSLETTER
                             </span>
-                            <nav  class="nav_footer">
-                                <a href="#">About us</a>
-                                <a href="#">Support</a>
-                                <a href="#">Contact us</a>
-                                
-                            </nav>
-
-                        </div>
-                    </div>
-                  <div class="email_block"> 
-                        <span>
-                            SUBSCRIBE TO OUR NEWSLETTER
-                        </span>
-                        
-                            <input type="email" class="email_footer" id="emailid" placeholder="Type Your Email Here">
+                            
+                                <input type="email" class="email_footer" id="emailid" placeholder="Type Your Email Here">
+                              
                           
-                      
-                        <div class="btn_footer"> 
-                            <a href="#">
-                                <span>SUBSCRBE</span>
-                            </a>
+                            <div class="btn_footer"> 
+                                <a href="#">
+                                    <span>SUBSCRBE</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="footer_border2"></div>
-                <div class="footer_additionally">
-                    <div class="addit_text"><span>Copyright 2021 Enisson Lemos | All right reserved</span></div>
-                    <div class="addit_text"><span>Terms & Conditions</span></div>
-                </div>
+                 </div>
+                 <div class="footer_border2"></div>
+               <div class="footer_additionally">
+                   <span>2021 Enisson Lemos | All right reserved</span>
+                   <span>Terms & Conditions</span>
+               </div>
 
+                    
                 
             </div>
         </section>  
